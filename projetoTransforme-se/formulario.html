@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;700;800&family=Poppins:wght@300;400;500;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap');
+    </style>
+</head>
+
+<body class="cabecalho">
+    <nav class="menu menu-interno">
+        <!-- Container que vai conter todos os elementos do menu'-->
+        <div class="container">
+            <img class="logo" src="" alt="">
+            <div class="list__menu">
+                <div class="item"><a href="index.html">Home</a></div>
+                <div class="item"><a href="sobre.html">Sobre</a></div>
+                <div class="item"><a href="canaisdeapoio.html">Canais de apoio</a></div>
+                <div class="item"><a href="forum.html">Fórum</a></div>
+
+            </div>
+            <a class="btn__menu" href="formulario.html">Fale conosco</a>
+        </div>
+    </nav>
+    <section id="forms" class="">
+       <div class="container">
+        <section id="principal" class="conteudo__formulario">
+            <div class="container">
+                <div class="titulo__formulario">
+                    <h1> Formulário para Mais informações</h1>
+                    <img src="" alt="">
+                    <div class="paragrafo__formulario">
+                        <p>
+                            <span>
+                                Sinta-se a vontade para compartilhar seus dados e sua história. Temos também um local para
+                                que você também possa se expresar de forma anônima utilizando o Fórum.
+                                <img src="assets/img/megafone.png" alt="Imagem representativa">
+                            </span>
+                        </p>
+                    </div>
+                </div>
+        </section>
+        <section class= "formulario">
+            <div class="container">
+    
+                <form method="POST" action="cadastro.php">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" size="25" maxlength="25" placeholder="Informe nome completo" required>
+    
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="Informe seu email" required>
+    
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="Informe seu telefone" required>
+    
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="5" placeholder="Nos conte sobre você"
+                        maxlength="255" required></textarea>
+    
+                    <button class="botao" type="submit" >Enviar</button>
+                </form>
+        </section>
+       </div>
+    </section>
+    </div>
+    <div id="rodape">
+        <p></p>
+    </div>
+</body>
+
+</html>
